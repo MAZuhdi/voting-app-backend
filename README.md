@@ -2,23 +2,23 @@
 
 1. Selesaikan download dengan :
 
-### " composer install "
+### `composer install`
 
 2. Copy file ".env.example" paste di tempat yang sama, dengan nama ".env"
 
 3. Buat key app
 
-### php artisan key:generate
+### `php artisan key:generate`
 
 4. Buat Database pada My SQL, dengan nama "voting_app" atau yang sesuai pada file .env baris 12 / DB_DATABASE=voting_app
 
 5. Migrasi tabel dan seeding dengan :
 
-### php artisan migrate --seed
+### `php artisan migrate --seed`
 
 6. Mulai jalankan pada server
 
-### php artisan serve
+### `php artisan serve`
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
